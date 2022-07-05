@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.gridlayout.widget.GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:columnCount="2"
+    app:rowCount="2"
+    app:orientation="horizontal"
+    >
+
+    <FrameLayout
+        android:id="@+id/btn1"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="#f8d19f"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/user"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/mps"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="MAPS"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/btn2"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="#ebc493">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/job"
+                android:src="@drawable/rfrn"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/job"
+                android:layout_centerHorizontal="true"
+                android:text="PREFERNECES"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/btn3"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="#deb887">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/notif"
+                android:src="@drawable/ntwk"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/notif"
+                android:layout_centerHorizontal="true"
+                android:text="NETWORK"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/btn4"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="#d1ac7b"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/mail"
+                android:src="@drawable/sytk"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mail"
+                android:layout_centerHorizontal="true"
+                android:text="ASYNTASK"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/btn5"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="#c4a070"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/rate"
+                android:src="@drawable/hp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rate"
+                android:layout_centerHorizontal="true"
+                android:text="MESSAGES"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/btn6"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="#b89465">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/rev"
+                android:src="@drawable/db"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rev"
+                android:layout_centerHorizontal="true"
+                android:textColor="#000000"
+                android:text="DATABASE"/>
+        </RelativeLayout>
+    </FrameLayout>
+</androidx.gridlayout.widget.GridLayout>
